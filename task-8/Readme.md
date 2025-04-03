@@ -7,13 +7,13 @@
 ## Tables
 
 - Sales Table
-![alt text](./assests/T1.png)
+    - ![alt text](./assests/T1.png)
 
 - ProductsName Table
-![alt text](./assests/T2.png)
+    - ![alt text](./assests/T2.png)
 
 - EmployeeHierarchy Table
-![alt text](./assests/T2.png)
+    - ![alt text](./assests/T2.png)
 
 # Steps
 
