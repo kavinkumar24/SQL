@@ -17,7 +17,7 @@
 
 # Steps
 
-1. Creation and Insertion of Sales Table
+## 1. Creation and Insertion of Sales Table
 
 - Created a table called Sales with attribute like `SaleID`, `ProductID`, `SalesAmount`, `CustomerName`, `PhoneNumber`
 
@@ -44,7 +44,7 @@ INSERT INTO Sales (SaleID, ProductID, SalesAmount, CustomerName, PhoneNumber) VA
 (7, 103, 70000.00, 'Virat', '1234567897');
 ```
 
-2. Created ProductsName table and Inserted values
+## 2. Created ProductsName table and Inserted values
 
 - Created another table called ProductsName with the attribute of `ProductID` and `ProductName` to store the ProductsName for reference to Sales table
 
@@ -67,7 +67,7 @@ VALUES
 (104, 'Vision Pro Max')
 ```
 
-3. Applied a Common Table Expression
+## 3. Applied a Common Table Expression
 
 - For finding the Products who's sale is better than the average sales across all the products
 - For this using the CTE is a optimized way to predefine a `ProductSales` and `AverageSales`
@@ -120,9 +120,10 @@ ORDER BY
 
 ## Output
 
-[!alt text](./assests/Output1.png)
+![alt text](./assests/Output1.png)
 
-4. Created a EmployeeHierarchy table and inserted values
+
+## 4. Created a EmployeeHierarchy table and inserted values
 
 - Created a table called `EmployeeHierarchy` with the data `EmpID`, `NAME`, `PhoneNo`, `Email`, `ManagerID`, `POSITION`
 
@@ -148,7 +149,7 @@ VALUES ('E001', 'John', '1234567890', 'john@gmail.com', NULL, 'CEO'),
 ('E005', 'Santhosh', '5678901234', 'santhosh@gmail.com', 'E003', 'Employee');
 ```
 
-5. Used a `RECURSIVE CTE`
+## 5. Used a `RECURSIVE CTE`
 
 ``` sql
 WITH RECURSIVE EmpHierarchy AS (

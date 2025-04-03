@@ -13,7 +13,7 @@
 
 ## Steps:
 
-1. Created a Stored Procedure to calculate the total sales under specific dates
+### 1. Created a Stored Procedure to calculate the total sales under specific dates
 
 ``` sql
 DELIMITER $$
@@ -48,7 +48,7 @@ DELIMITER ;
 ![alt text](./assests/O1.png)
 
 
-2. Call the Stored Procedure
+### 2. Call the Stored Procedure
 
 ``` sql
 CALL GetTotalOrderedAmount('2025-04-01', '2025-04-30')
@@ -60,7 +60,7 @@ CALL GetTotalOrderedAmount('2025-04-01', '2025-04-30')
 
 ![alt text](./assests/O2.png)
 
-3. Created a User Defined function
+### 3. Created a User Defined function
 
 - Created a Function called `SundaySpecialDiscount` which gives `20%` discount for those who ordered in sunday
 
@@ -115,7 +115,7 @@ DELIMITER ;
 ![alt text](./assests/O3.png)
 
 
-4. Call the User defined function
+### 4. Call the User defined function
 
 - Get the details about order, and related details along with calculated discount amount if they have ordered in `sunday`
 
